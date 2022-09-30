@@ -13,6 +13,7 @@ bl_info = {
     "blender": (3, 3, 0),
     "location": "3D View > Toolbox",
     "category": "Animation",
+    "tracker_url": "https://github.com/natsu-anon/ArithmeticAnimations/issues"
 }
 
 # module_names = ['arithmetic_animations', 'ui']
