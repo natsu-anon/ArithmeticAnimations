@@ -9,7 +9,7 @@ bl_info = {
     "name": "Arithmetic Animations",
     "description": "Create animations by taking the difference, and average of existing ones",
     "author": "Natsu Dev",
-    "version": (0, 1, 0),
+    "version": (0, 1, 1),
     "blender": (3, 3, 0),
     "location": "3D View > Toolbox",
     "category": "Animation",
