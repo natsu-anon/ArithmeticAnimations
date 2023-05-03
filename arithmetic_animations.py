@@ -32,7 +32,8 @@ def get_eval_range(A, B):
     (B0, B1) = B.frame_range
     start = A0 if A0 < B0 else B0
     end = A1 if A1 > B1 else B1
-    return (start, end)
+    # LMAO DONT FORGET TO ADD 1 FOR RANGE
+    return (start, end + 1)
 
 
 def mix_curves(frame, frame_range, A_curve, B_curve, A_range, B_range, mix_func):
